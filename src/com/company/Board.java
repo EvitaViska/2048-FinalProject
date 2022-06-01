@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-//final class:
-//extends JPanel:
+//Final class: a class that can't be extended
+//JPanel:
 public final class Board extends JPanel {
 
     Board() {
@@ -21,6 +21,7 @@ public final class Board extends JPanel {
         this.repaint();
     }
 
+    //paintComponent method: This method is needed to draw something on JPanel other than drawing the background color.
     @Override
     public void paintComponent(Graphics g) {
         g.setColor(Color.BLACK);
