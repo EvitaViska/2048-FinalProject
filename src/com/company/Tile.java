@@ -75,9 +75,7 @@ public class Tile extends JPanel implements ActionListener {
         }
 
         if (tile_glow) {
-            /*g.setColor(Color.BLACK);
-                088
-                g.drawRect(_x, _y, 40, 40);*/
+
             g.setColor(Color.getHSBColor(40, 240, 128));
 
             g.fillRect(_x + 2, _y + 2, 37, 37);
